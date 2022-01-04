@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+    
+}
+.stars{
+    position: absolute;
+}
+.hills{
+    position: absolute;
+    bottom: 0;
+    width: 1440pxs ;
+
+}
+@media  (min-width:1000px){
+    .stars img,
+    .hills img{
+        width: 600spx;
+    }
+}
+
+
+    
+
+
+.countdown{
+    display:grid
+;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center ;
+
+}
+.countdown ul{
+    list-style-type:none ;
+
+   
+
+}
+.countdown div{
+    margin: 10px;
+    
+  
+}
+.countdown h3{
+    color:blue;
+    border:1px solid;
+    background-color: green;
+    font-size: 18px;
+    margin: 33px 50px ;
+   
+
+
+}
+.countdown p{
+    padding: 20px;
+    border-radius: 20px;
+   background-color: violet;
+   color: rgb(59, 15, 42);
+   font-size: 20px;
+}
+.section{
+    display: grid;
+    max-width: 700px;
+    margin: 20px auto;
+}
+.hills{
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 100vh;s
+    display: block;
+}
+
+
+.main{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 20px;
+
+}

@@ -1,0 +1,54 @@
+.section{
+    margin: auto;
+    background:  #0c0c25;
+    height: 300px;
+    width: 600px;
+    padding-top: 60px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+
+
+h1{
+    color: white;
+    padding: 20px;
+}
+.container{
+    margin:auto;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    padding-top: 50px;;
+
+
+}
+.countdown{
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-around;
+
+}
+.countdown p{
+    padding: 30px;
+    margin: 10px;
+    color:  hsl(345, 95%, 68%);
+    border-radius: 5px;
+    background:  hsl(236, 21%, 26%);
+    font-size:20px;
+    justify-content: space-around;
+}
+
+.countdown h3{
+    padding: 20px;
+    color: white;
+}
+
+.countdown ul{
+    width: 20px;
+    display: flex;
+
+}
+
+
